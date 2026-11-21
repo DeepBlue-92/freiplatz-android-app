@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SVN Tennis</string>
+    <string name="offline_title">Keine Internetverbindung</string>
+    <string name="offline_desc">Bitte überprüfe deine Netzwerkverbindung und versuche es erneut.</string>
+    <string name="offline_retry_button">ERNEUT VERSUCHEN</string>
+    <string name="download_started">Download gestartet…</string>
+    <string name="download_completed">Download abgeschlossen</string>
+</resources>

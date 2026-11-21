@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Basis Theme (Edge-to-Edge, NoActionBar) -->
+    <style name="Theme.SVNTennis" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/club_green</item>
+        <item name="colorPrimaryVariant">@color/club_green_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+        
+        <!-- Status Bar Styling: Transparenz für 100% Fullscreen-Höhe, weiße Icons für dunkelgrünen Website-Header -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        
+        <!-- Navigation Bar Styling: Weiß mit dunklen Icons -->
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+    </style>
+
+    <!-- Splash Screen API Theme -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.SVNTennis</item>
+    </style>
+</resources>
