@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
          * Feste Ziel-URL der Tennis-Platzreservierung.
          * Kann hier an zentraler Stelle angepasst werden.
          */
-        private const val TARGET_URL = "https://buchen.sv-neuhausen.de"
+        private const val TARGET_URL = "https://platz.sv-neuhausen.de"
 
         /**
          * Erlaubte Hauptdomain für interne Navigation innerhalb der WebView.

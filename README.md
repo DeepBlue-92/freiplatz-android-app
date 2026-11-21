@@ -1,6 +1,6 @@
 # SVN Tennis – Android App (Freiplatz)
 
-Offizielle, schlanke Android-App für die Tennis-Platzreservierung des **SV Neuhausen e.V.** (`https://buchen.sv-neuhausen.de`).
+Offizielle, schlanke Android-App für die Tennis-Platzreservierung des **SV Neuhausen e.V.** (`https://platz.sv-neuhausen.de`).
 
 ## Highlights & Features
 
@@ -16,7 +16,7 @@ Offizielle, schlanke Android-App für die Tennis-Platzreservierung des **SV Neuh
 ## Projektstruktur
 
 - **Package:** `de.svneuhausen.tennis`
-- **Ziel-URL:** `https://buchen.sv-neuhausen.de` (konfigurierbar in `MainActivity.kt`)
+- **Ziel-URL:** `https://platz.sv-neuhausen.de` (konfigurierbar in `MainActivity.kt`)
 - **Min SDK:** 24 (Android 7.0+)
 - **Target SDK:** 34 (Android 14 / 15 ready)
 
